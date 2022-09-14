@@ -6,3 +6,6 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 # Copy config to nvim
 cp -u -R -f ../../configs/nvim/init.vim ~/.config/nvim/
+
+# Install plugins
+nvim -s ./install_plugins.vim
